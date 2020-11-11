@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>INFO2180 Lab 4</title>
+	<link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+</head>
+<body>
+<header>
+	<div class="box1">
+		<h1>AVENGERS CHARACTER SEARCH</h1>
+	</div>
+</header>
+
+<div class="box2">
+	<main>
+		<div class="box3">
+			<h2>Search by Full Name or Alias</h2>
+			<form action="/superheroes.php" method="post">
+				<div class="searchBar">
+					<input type="text" name="search" id="search" placeholder="e.g.Captain America or Steve Rogers">
+					<button class="btn" type="submit" id="searchBtn">Search</button>
+				</div>
+			</form>
+		</div>
+
+		<div class="box4">
+			<h3>RESULT</h3>
+			<hr>
+			<p id="supLst"></p>
+		</div>
+
+		<div class="box5">
+			<!-list goes here->
+		</div>
+	</main>
+</div>
+
+<div class="box5">
+	<footer>
+		<p>Copyright &copy; 2020, Deidre-Ann Jemison</p>
+	</footer>	
+</div>
+
+</body>
+</html>
